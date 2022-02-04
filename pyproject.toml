@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "periodic-table-solver"
+version = "0.1.0"
+description = "Given a word check whether this can be spelled using the periodic table elements"
+authors = ["Rachel Gresty"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1, <3.10"
+pandas = "^1.2.1"
+streamlit = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.12.2"
+black = "^21.12b0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
